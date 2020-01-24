@@ -1,0 +1,301 @@
+/*
+#############
+### Allgemein ###
+################
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search.icon:hover {
+    color: #cda34f;
+    transition-duration: 0.5s;
+}
+
+.active:hover{
+    border-bottom: 2px solid #cda34f;
+    transition-duration: 0.5s;
+
+}
+
+a:hover {
+    color: #cda34f;
+    transition-duration: 0.5s;
+}
+
+.ma-wi {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ma-wi-discover {
+    max-width: 1045px;
+    margin: 0 auto;
+}
+p {
+    font-family: 'Quattrocento Sans';
+    
+}
+
+
+.text-big {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'Quattrocento Sans';
+    color: #ffffff
+    
+}
+
+h3 {
+    font-size: 28px;
+    font-family: 'Quattrocento Sans'
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'Quattrocento Sans';
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header {
+    background-image: url(../img/header_img2.png);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+ }
+
+ main {
+     margin-bottom: 60px;
+ }
+
+footer {
+    background-color: #636b46;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: block;
+    
+}
+
+ /*
+ ###############
+ ### header  ###
+ ###############
+ */
+
+
+ .active {
+    border-bottom: 2px solid #ffffff;
+}
+
+ nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.first-list {
+   display: flex;
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   width: 100px;
+   justify-content: space-between;
+   transform: translateX(-50%);
+}
+
+.search.icon {
+    color: #fff;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+    border: solid 2px currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  
+  .search.icon:before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    height: 13px;
+    width: 2px;
+    background-color: currentColor;
+  }
+
+/*
+#############
+####  main ####
+###############
+*/
+
+.first-main {
+    background-color: #636b46;
+    height: 675px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-list {
+    display: flex;
+    padding: 34px;
+}
+
+.img_jamesarthur {
+    height: 100%;
+}
+
+.img_jamesarthur img {
+    height: calc(100% - 1em);
+    margin-right: 1em;
+}
+
+.main-list_text {
+    display: flex;
+    flex-flow: column;
+    width: 100%
+}
+
+.upper {
+    background: #cda34f;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    margin-bottom: 1em;
+    width: 100%;
+    box-shadow: 0 0 3px 3.5px #2c2c2c;
+}
+
+.upper h2 {
+    position: absolute;
+    top: 37%;
+}
+
+.upper h2:nth-child(2) {
+    top: 50%;
+    position: absolute;
+}
+
+.img_jordan {
+    height: 50%;
+    width: 100%;
+}
+
+.second-main {
+    border: 1px solid #000000;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 0 3px 1.5px #2c2c2c;
+}
+
+.second-main h2 {
+    color: #636b46;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main-second-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-main {
+    display: block;
+}
+
+.third-main h2 {
+    background-color: #cda34f;
+    text-align: center;
+    margin: 50px 0;
+    height: 100px;
+    padding-top: 37px;
+}
+
+.main-text {
+    border: 1px solid #000000;
+    display: flex;
+    padding: 40px 0;
+    box-shadow: 0 0 3px 1.5px #2c2c2c;
+}
+
+.main-text_content {
+    flex-basis: 50%;
+}
+
+.main-text_content h3 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-text_content p {
+    line-height: 1.8;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+
+/*
+#######################
+####  footer  #########
+#######################
+*/
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer-item {
+    padding: 50px 70px;
+}
+
+.footer-second-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-second-list li a {
+    padding: 0 15px;
+}
